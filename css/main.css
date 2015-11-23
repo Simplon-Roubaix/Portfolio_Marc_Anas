@@ -94,14 +94,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.orbit-previous , .orbit-next {
+    color: #000;
+}
+
+.orbit-slide {
+    max-height: 700px;
+}
+
+.orbit-slide div {
+    max-width: 90%;
+    margin: auto;
+}
+
+.orbit-caption {
+    max-width: 90%;
+}
 
 .reveal img {
   max-height: 90%;
   max-width: 90%;
-}
-
-
-
 
 
 
