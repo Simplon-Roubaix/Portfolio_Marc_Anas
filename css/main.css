@@ -113,26 +113,39 @@ footer {
 */
 
 .orbit-previous , .orbit-next {
-    color: #000;
+  color: #000;
 }
 
 .orbit-slide {
-    max-height: 700px;
+  max-height: 395px;
 }
 
 .orbit-slide div {
-    max-width: 90%;
-    margin: auto;
+  display: table;
+  max-width: 90%;
+  max-height: 395px;
+  margin: auto;
+}
+
+.orbit-image {
+  display: block;
+  margin: auto;
 }
 
 .orbit-caption {
-    max-width: 90%;
+  position: static;
+  display: table-caption;
+  caption-side: bottom;
 }
+
+/*
+  MAIN
+*/
 
 .reveal img {
   max-height: 90%;
   max-width: 90%;
-  }
+}
 
 /* ==========================================================================
    Helper classes
