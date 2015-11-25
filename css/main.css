@@ -94,6 +94,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*
+  HEADER et FOOTER
+*/
+
+.callout {
+  margin: 0;
+}
+
+footer {
+  font-style: italic;
+  color: #666;
+}
+
+/*
+  ASIDE
+*/
+
 .orbit-previous , .orbit-next {
     color: #000;
 }
@@ -115,17 +133,6 @@ textarea {
   max-height: 90%;
   max-width: 90%;
   }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
