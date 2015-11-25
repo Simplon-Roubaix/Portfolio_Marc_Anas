@@ -21,15 +21,16 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <div class="callout primary">
-        <div class="row column">
+    <!-- EN-TETE -->
+    <header class="callout primary">
+        <div class="row column text-center">
             <h1>Gamer Wallpapers.</h1>
             <p class="lead">Fonds d'écran de plusieurs Jeux. Bonne visite :).</p>
         </div>
-    </div>
+    </header>
 
-    <div class="orbit show-for-large" role="region" aria-label="Images de présentation des catégories" data-orbit>
+    <!-- CAROUSEL -->
+    <aside class="orbit show-for-large" role="region" aria-label="Images de présentation des catégories" data-orbit>
         <ul class="orbit-container">
             <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
             <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
@@ -73,17 +74,26 @@
                 <span class="show-for-sr">Fourth slide details.</span>
             </button>
         </nav>
-    </div>
+    </aside>
 
-    <ul class="tabs" data-tabs id="thumbnails-tabs">
-      <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Starcraft</a></li>
-      <li class="tabs-title"><a href="#panel2">Elder Scroll</a></li>
-      <li class="tabs-title"><a href="#panel3">League of Legends</a></li>
-      <li class="tabs-title"><a href="#panel4">Aion</a></li>
-    </ul>
-    <div class="tabs-content" data-tabs-content="thumbnails-tabs">
-      <div data-interchange="[responsive/small-medium-thumbnails.html, small], [responsive/large-thumbnails.html, large]"></div>
-    </div>
+    <!-- CONTENU PRINCIPAL : Portfolio de miniatures -->
+    <main>
+      <ul class="tabs" data-tabs id="thumbnails-tabs">
+        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Starcraft</a></li>
+        <li class="tabs-title"><a href="#panel2">Elder Scroll</a></li>
+        <li class="tabs-title"><a href="#panel3">League of Legends</a></li>
+        <li class="tabs-title"><a href="#panel4">Aion</a></li>
+      </ul>
+      <div class="tabs-content" data-tabs-content="thumbnails-tabs">
+        <!-- RESPONSIVE DESIGN : Pour mobiles/tablettes vignettes simples, pour ordinateurs vignettes avec lien modal -->
+        <div data-interchange="[responsive/small-medium-thumbnails.html, small], [responsive/large-thumbnails.html, large]"></div>
+      </div>
+    </main>
+
+    <!-- PIED DE PAGE -->
+    <footer class="callout secondary">
+      Rédigé par Marc et Anas
+    </footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.
         <script>
